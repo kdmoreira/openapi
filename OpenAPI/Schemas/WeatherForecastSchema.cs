@@ -6,7 +6,7 @@ namespace OpenAPI.Schemas
 {
     public class WeatherForecastSchema : WeatherForecast
     {
-        public new AnySchema Summary { get; }
+        public new Object Summary { get; }
         public BigInteger PreciseTemperature { get; }
     }
 }
